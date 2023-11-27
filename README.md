@@ -2,6 +2,8 @@
   Reanimated Transitions
 </h3>
 
+  ![image](mobile_transititons_inspiration.gif)
+  
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
