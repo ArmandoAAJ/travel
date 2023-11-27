@@ -2,7 +2,9 @@
   Reanimated Transitions
 </h3>
 
+<p align="center">
   ![image](mobile_transititons_inspiration.gif)
+</p>
   
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
