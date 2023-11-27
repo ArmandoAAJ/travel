@@ -3,9 +3,9 @@
 </h3>
 
 <p align="center">
-  ![image](mobile_transititons_inspiration.gif)
+  <img src="mobile_transititons_inspiration.gif" alt="Reanimated Transitions" />
 </p>
-  
+
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
