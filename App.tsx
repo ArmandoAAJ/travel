@@ -1,6 +1,6 @@
 import { NavigationContainer } from '@react-navigation/native';
 
-import { Routes } from './src/routes';
+import { StackRoutes } from './src/routes/Stacks';
 
 import {
   useFonts,
@@ -22,7 +22,7 @@ export default function App() {
 
   return (
     <NavigationContainer>
-      <Routes.StackRoutes />
+      <StackRoutes />
     </NavigationContainer>
   );
 }

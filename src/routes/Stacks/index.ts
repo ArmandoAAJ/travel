@@ -1,1 +1,1 @@
-import { StackRoutes } from './Stack';
+export { StackRoutes } from './Stack';

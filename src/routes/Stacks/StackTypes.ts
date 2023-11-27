@@ -1,9 +1,4 @@
-import { IHome } from '../mocks';
-import { StackRoutes } from './Stacks/Stack';
-
-export const Routes = {
-  StackRoutes,
-};
+import { IHome } from '../../mocks';
 
 export enum RouteNames {
   Home = 'Home',

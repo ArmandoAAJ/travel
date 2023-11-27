@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 
 import { CONSTANTS } from '../../Home.constants';
 import { css } from 'styled-components';
-import { Animated } from 'react-native';
+import Animated from 'react-native-reanimated';
 
 interface IContainerProps {
   isRight: boolean;
@@ -24,7 +24,7 @@ export const Container = styled(Animated.View)<IContainerProps>`
     `}
 `;
 
-export const Background = styled.ImageBackground.attrs({
+export const Background = styled(Animated.Image).attrs({
   resizeMode: 'cover',
   borderRadius: CONSTANTS.RADIUS,
 })`
@@ -32,21 +32,29 @@ export const Background = styled.ImageBackground.attrs({
   width: 100%;
 `;
 
-export const Info = styled.View`
+export const Info = styled(Animated.View)`
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 50px;
-  justify-content: center;
+  height: 60px;
   padding: 0 4px 4px 4px;
   border-radius: ${CONSTANTS.RADIUS}px;
+  align-items: center;
 `;
 
 export const Country = styled.Text`
-  font-size: 20px;
+  font-size: 22px;
   color: #fff;
   position: absolute;
-  padding: 0 10px;
+  padding: 4px 0px 0px 0px;
+  font-family: 'DancingScript_700Bold';
+`;
+
+export const Likes = styled(Animated.Text)`
+  font-size: 12px;
+  color: #fff;
+  position: absolute;
+  bottom: 8px;
   font-family: 'DancingScript_700Bold';
 `;
