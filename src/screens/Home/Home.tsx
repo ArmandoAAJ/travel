@@ -12,7 +12,6 @@ export const Home: React.FC = () => {
       numColumns={2}
       showsVerticalScrollIndicator={false}
       keyExtractor={(item) => item.id}
-      stickyHeaderIndices={[0]}
       renderItem={(props) => <HomeComponents.Item {...props} />}
     />
   );
